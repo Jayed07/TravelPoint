@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    margin: 0 auto;
+}
+
+/* Navigation Bar styles */
+.nav-bar-wrapper .logo-wrapper {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.nav-bar-wrapper a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.nav-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 8px;
+    background-color:#5abf72;
+}
+
+.nav-bar-wrapper .navigation-wrapper ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-bar-wrapper .navigation-wrapper ul li{
+   margin-right: 6px;
+   font-size: 16px;
+   text-transform: uppercase;
+}
+
+.nav-bar-wrapper .navigation-wrapper ul li a:hover{
+    border-bottom: solid 2px white;
+ }
+
+ .nav-bar-wrapper .navigation-wrapper ul li a:active{
+    border-bottom: solid 2px white;
+ }
+
+
+/* Hero Section Styles */
+.hero-section {
+    background-color: aqua;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+/* Footer Syles */
+footer {
+    margin: 0 auto;
+    background-color: #5abf72;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    font-size: 16px;
+}
